@@ -19,7 +19,8 @@ pipeline {
                 sh 'bash jenkins/run.sh'
                 
             
+            }
         }
-    }
     
+    }
 }
