@@ -13,5 +13,5 @@ source venv/bin/activate
 
 #Perform PIP installation
 pip3 install -r requirements.txt
-pip3 install python3 pytest pytest-cov flask_testing
+# pip3 install python3 pytest pytest-cov flask_testing
 
