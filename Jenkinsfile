@@ -4,19 +4,19 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'bash jenkins/test.sh'
+                sh 'bash scripts/test.sh'
             }
         }
 
         stage('Install') {
             steps {
-                sh 'bash jenkins/install.sh'
+                sh 'bash scripts/install.sh'
             }
         }
         
         stage('Run') {
             steps {
-                sh 'bash jenkins/run.sh'
+                sh 'bash scripts/run.sh'
                 
             
             }
