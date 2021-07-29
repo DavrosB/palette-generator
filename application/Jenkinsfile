@@ -18,7 +18,7 @@ pipeline {
             steps {
                 sh 'bash scripts/run.sh'
                 
-            
+            // moved sh files to scripts folder
             }
         }
     
